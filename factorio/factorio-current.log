@@ -1,0 +1,159 @@
+   0.001 2022-07-23 23:06:39; Factorio 1.1.61 (build 59839, win64, steam)
+   0.001 Operating system: Windows 10 (build 19044) 
+   0.001 Program arguments: "C:\Program Files (x86)\Steam\steamapps\common\Factorio\bin\x64\Factorio.exe" 
+   0.001 Read data path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/data
+   0.001 Write data path: C:/Users/cucum/AppData/Roaming/Factorio [11449/199385MB]
+   0.001 Binaries path: C:/Program Files (x86)/Steam/steamapps/common/Factorio/bin
+   0.023 System info: [CPU: Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz, 4 cores, RAM: 4139/7879 MB, page: 6270/18565 MB, virtual: 4328/134217727 MB, extended virtual: 0 MB]
+   0.023 Display options: [FullScreen: 1] [VSync: 1] [UIScale: automatic (100.0%)] [Native DPI: 1] [Screen: 255] [Special: lmw] [Lang: ru]
+   0.034 Available displays: 2
+   0.035  [1]: \\.\DISPLAY2 - Intel(R) UHD Graphics {0x05, [0,0], 1920x1080, 32bit, 120Hz}
+   0.035  [0]: \\.\DISPLAY1 - Intel(R) UHD Graphics {0x01, [-1366,312], 1366x768, 32bit, 60Hz}
+   0.128 [Direct3D11] Display: 0, Output: 0, DisplayAdapter: 0, RenderingAdapter: 0; d3dcompiler_47.dll
+   0.212 Initialised Direct3D[0]: Intel(R) UHD Graphics; id: 8086-8a56; driver: igdumdim64.dll 30.0.100.9805
+   0.212   D3D Feature Level: 11.1, DXGI 1.5+, SwapChain: 3,flip-discard,-,-,-,none
+   0.212   [Local Video Memory] Budget: 3545MB, CurrentUsage: 0MB, Reservation: 0/1871MB
+   0.212   [Non-Local Vid.Mem.] Budget: 0MB, CurrentUsage: 0MB, Reservation: 0/0MB
+   0.212   Tiled resources: Tier 2
+   0.212   Unified Memory Architecture: Yes
+   0.212   BGR 565 Supported: Yes
+   0.212   MaximumFrameLatency: 3, GPUThreadPriority: 0
+   0.213 Graphics settings preset: integrated-gpuhigh
+   0.213   Dedicated video memory size 128 MB
+   0.325 Desktop composition is active.
+   0.325 Graphics options: [Graphics quality: high] [Video memory usage: all] [DXT: low-quality] [Color: 32bit]
+   0.325                   [Max threads (load/render): 32/4] [Max texture size: 8192] [Tex.Stream.: 0] [Rotation quality: low] [Other: sTDCwt] [B:0,C:0,S:100]
+   0.414 DSound: Starting _dsound_update thread
+   0.414 [Audio] Backend:default; Depth:16, Channel:2, Frequency:44100; MixerQuality:linear
+   0.414 DSound: Enter _dsound_update; tid=3040
+   0.598 Loading mod core 0.0.0 (data.lua)
+   0.707 Loading mod base 1.1.61 (data.lua)
+   1.055 Loading mod base 1.1.61 (data-updates.lua)
+   1.209 Checksum for core: 1720724266
+   1.209 Checksum of base: 2195340303
+   1.656 Prototype list checksum: 3034860339
+   1.704 Loading sounds...
+   2.611 Info PlayerData.cpp:73: Local player-data.json unavailable
+   2.611 Info PlayerData.cpp:76: Cloud player-data.json available, timestamp 1658431279
+   2.777 Initial atlas bitmap size is 8192
+   2.795 Created atlas bitmap 8192x8188 [none]
+   2.808 Created atlas bitmap 8192x8164 [none]
+   2.817 Created atlas bitmap 8192x8168 [none]
+   2.831 Created atlas bitmap 8192x8184 [none]
+   2.846 Created atlas bitmap 8192x8176 [none]
+   2.859 Created atlas bitmap 8192x8192 [none]
+   2.859 Created atlas bitmap 8192x5640 [none]
+   2.860 Created atlas bitmap 8192x4188 [decal]
+   2.865 Created atlas bitmap 8192x8192 [low-object, linear-minification]
+   2.866 Created atlas bitmap 8192x2848 [low-object]
+   2.866 Created atlas bitmap 8192x4224 [mipmap, linear-minification, linear-magnification, linear-mip-level]
+   2.869 Created atlas bitmap 8192x8128 [terrain, mipmap, linear-minification, linear-mip-level]
+   2.871 Created atlas bitmap 8192x4448 [terrain, mipmap, linear-minification, linear-mip-level]
+   2.871 Created atlas bitmap 4096x3216 [terrain-effect-map, mipmap, linear-minification, linear-mip-level]
+   2.871 Created atlas bitmap 4096x1856 [smoke, mipmap, linear-minification, linear-magnification]
+   2.872 Created atlas bitmap 4096x3088 [mipmap]
+   2.872 Created atlas bitmap 8192x2240 [icon, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level]
+   2.873 Created atlas bitmap 8192x1496 [alpha-mask]
+   2.876 Created atlas bitmap 8192x7980 [shadow, linear-magnification, alpha-mask]
+   2.876 Created atlas bitmap 4096x1312 [shadow, mipmap, linear-magnification, alpha-mask]
+   2.877 Created atlas bitmap 2048x240 [icon-background, not-compressed, mipmap, linear-minification, linear-magnification, linear-mip-level, ]
+   2.882 Texture processor created (2048). GPU accelerated compression Supported: yes, Enabled: yes/yes. Test passed. YCoCgDXT PSNR: 35.83, BC3 PSNR: 33.82
+   7.999 Parallel Sprite Loader initialized (threads: 3)
+  23.094 Sprites loaded
+  23.156 Generated mipmaps (4) for atlas [8] of size 8192x8192   
+  23.178 Generated mipmaps (4) for atlas [9] of size 8192x2848   
+  23.200 Generated mipmaps (3) for atlas [10] of size 8192x4224   
+  23.244 Generated mipmaps (3) for atlas [11] of size 8192x8128   
+  23.277 Generated mipmaps (3) for atlas [12] of size 8192x4448   
+  23.288 Generated mipmaps (3) for atlas [13] of size 4096x3216   
+  23.299 Generated mipmaps (3) for atlas [14] of size 4096x1856   
+  23.352 Generated mipmaps (3) for atlas [15] of size 4096x3088   
+  23.363 Generated mipmaps (5) for atlas [16] of size 8192x2240   
+  23.375 Generated mipmaps (3) for atlas [19] of size 4096x1312   
+  23.380 Custom mipmaps uploaded.
+  23.600 Factorio initialised
+  23.600 Discord overlay detected (DiscordHook64.dll)
+  23.606 Steam Storage Quota: 4763/4768
+ 287.015 Info ServerSynchronizer.cpp:31: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+ 287.015 Info ServerMultiplayerManager.cpp:797: updateTick(4294967295) changing state from(Ready) to(PreparedToHostGame)
+ 287.015 Info ServerMultiplayerManager.cpp:797: updateTick(4294967295) changing state from(PreparedToHostGame) to(CreatingGame)
+ 287.016 Loading level.dat: 980488 bytes.
+ 287.016 Info Scenario.cpp:199: Map version 1.1.61-0
+ 287.044 Checksum for script C:/Users/cucum/AppData/Roaming/Factorio/temp/currently-playing/control.lua: 3795083680
+ 287.046 Info UDPSocket.cpp:27: Opening socket at (IP ADDR:({0.0.0.0:34197}))
+ 287.047 Hosting game at IP ADDR:({0.0.0.0:34197})
+ 287.047 Info HttpSharedState.cpp:54: Downloading https://auth.factorio.com/generate-server-padlock-2?api_version=5
+ 287.335 Info AuthServerConnector.cpp:80: Obtained serverPadlock for serverHash (jvWC9LzkBT4pBtPzPAlqBJNNhT43RoTP) from the auth server.
+ 287.335 Info ServerMultiplayerManager.cpp:797: updateTick(0) changing state from(CreatingGame) to(InGame)
+ 287.350 Info GameActionHandler.cpp:5016: UpdateTick (0) processed PlayerJoinGame peerID(0) playerIndex(0) mode(create) 
+ 287.645 Info SteamContext.cpp:497: Lobby created callback started.
+ 287.646 Info SteamContext.cpp:504: Lobby created succeeded.
+ 287.646 Info SteamContext.cpp:526: Lobby creation finished.
+ 287.646 Info SteamContext.cpp:534: Entered own lobby.
+ 330.545 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(STEAM ID:({76561199176090947}))
+ 330.545 Refusing connection for address (STEAM ID:({76561199176090947})), username (). UserVerificationMissing
+ 404.111 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(STEAM ID:({76561199176090947}))
+ 404.112 Info ServerRouter.cpp:451: Replying to connectionRequest for address(STEAM ID:({76561199176090947})).
+ 404.112 Info ServerSynchronizer.cpp:604: nextHeartbeatSequenceNumber(7006) adding peer(1)
+ 404.112 Info AuthServerConnector.cpp:322: Queuing ban recommendation check for user Farmerok
+ 404.121 Info HttpSharedState.cpp:54: Downloading https://auth.factorio.com/bans/query-user
+ 404.148 Info ServerMultiplayerManager.cpp:797: updateTick(7018) changing state from(InGame) to(InGameSavingMap)
+ 404.194 Info ServerMultiplayerManager.cpp:948: updateTick(7018) received stateChanged peerID(1) oldState(Ready) newState(ConnectedWaitingForMap)
+ 404.263 Info ServerMultiplayerManager.cpp:1011: UpdateTick(7018) Serving map(C:\Users\cucum\AppData\Roaming\Factorio\temp\mp-save-0.zip) for peer(1) size(645824) auxiliary(119) crc(2343725156)
+ 404.264 Info ServerMultiplayerManager.cpp:797: updateTick(7018) changing state from(InGameSavingMap) to(InGame)
+ 404.347 Info HttpSharedState.cpp:147: Downloading https://auth.factorio.com/bans/query-user
+ 404.347 Info HttpSharedState.cpp:148: Status code: 401
+ 404.362 Info ServerMultiplayerManager.cpp:948: updateTick(7023) received stateChanged peerID(1) oldState(ConnectedWaitingForMap) newState(ConnectedDownloadingMap)
+ 404.365 Info AuthServerConnector.cpp:21: Failed to reach auth server: code(401) message({"data":{},"error":"login-failed","message":"Given username or email and password do not match any account","status":401}
+)
+ 404.369 Warning AuthServerConnector.cpp:358: Getting ban recommendation from auth server failed.
+ 404.895 Info ServerMultiplayerManager.cpp:948: updateTick(7055) received stateChanged peerID(1) oldState(ConnectedDownloadingMap) newState(ConnectedLoadingMap)
+ 405.012 Info ServerMultiplayerManager.cpp:948: updateTick(7062) received stateChanged peerID(1) oldState(ConnectedLoadingMap) newState(TryingToCatchUp)
+ 405.079 Info ServerMultiplayerManager.cpp:948: updateTick(7066) received stateChanged peerID(1) oldState(TryingToCatchUp) newState(WaitingForCommandToStartSendingTickClosures)
+ 405.079 Info GameActionHandler.cpp:5016: UpdateTick (7066) processed PlayerJoinGame peerID(1) playerIndex(1) mode(create) 
+ 405.179 Info ServerMultiplayerManager.cpp:948: updateTick(7072) received stateChanged peerID(1) oldState(WaitingForCommandToStartSendingTickClosures) newState(InGame)
+ 587.313 Info AppManager.cpp:306: Saving to _autosave1 (blocking).
+ 587.508 Info AppManagerStates.cpp:1902: Saving finished
+ 887.513 Info AppManager.cpp:306: Saving to _autosave2 (blocking).
+ 887.761 Info AppManagerStates.cpp:1902: Saving finished
+1187.747 Info AppManager.cpp:306: Saving to _autosave3 (blocking).
+1187.978 Info AppManagerStates.cpp:1902: Saving finished
+1487.962 Info AppManager.cpp:306: Saving to _autosave1 (blocking).
+1488.187 Info AppManagerStates.cpp:1902: Saving finished
+1788.181 Info AppManager.cpp:306: Saving to _autosave2 (blocking).
+1788.513 Info AppManagerStates.cpp:1902: Saving finished
+2088.497 Info AppManager.cpp:306: Saving to _autosave3 (blocking).
+2088.740 Info AppManagerStates.cpp:1902: Saving finished
+2388.731 Info AppManager.cpp:306: Saving to _autosave1 (blocking).
+2388.974 Info AppManagerStates.cpp:1902: Saving finished
+2462.963 Unlocked achievement "it-stinks-and-they-dont-like-it"
+2688.963 Info AppManager.cpp:306: Saving to _autosave2 (blocking).
+2689.196 Info AppManagerStates.cpp:1902: Saving finished
+2989.196 Info AppManager.cpp:306: Saving to _autosave3 (blocking).
+2989.449 Info AppManagerStates.cpp:1902: Saving finished
+3289.447 Info AppManager.cpp:306: Saving to _autosave1 (blocking).
+3289.711 Info AppManagerStates.cpp:1902: Saving finished
+3553.969 Info AppManagerStates.cpp:1902: Saving finished
+3557.049 Info ServerMultiplayerManager.cpp:114: Disconnecting multiplayer connection.
+3557.049 Info ServerMultiplayerManager.cpp:797: updateTick(196028) changing state from(InGame) to(DisconnectingScheduled)
+3557.061 Info ServerMultiplayerManager.cpp:797: updateTick(196028) changing state from(DisconnectingScheduled) to(Disconnecting)
+3557.478 Info ServerMultiplayerManager.cpp:797: updateTick(196028) changing state from(Disconnecting) to(Disconnected)
+3557.480 Info ServerMultiplayerManager.cpp:141: Quitting multiplayer connection.
+3557.480 Info ServerMultiplayerManager.cpp:797: updateTick(196028) changing state from(Disconnected) to(Closed)
+3557.480 Info SteamContext.cpp:486: Leaving lobby...
+3557.537 Info UDPSocket.cpp:218: Closing socket
+3557.537 Info UDPSocket.cpp:248: Socket closed
+3565.414 Quitting: user-quit.
+3565.579 DSound: Stopping voice
+3565.579 DSound: Joining thread
+3565.581 DSound: Exit _dsound_update; tid=3040
+3565.582 DSound: Waiting for voice to stop ... signaled
+3565.582 DSound: Joined thread
+3565.582 DSound: Destroying thread
+3565.582 DSound: Thread destroyed
+3565.582 DSound: Releasing buffer
+3565.582 DSound: Voice stopped
+3565.582 DSound: Deallocating voice
+3565.582 DSound: Deallocated voice
+3565.639 Steam API shutdown.
+3565.651 Goodbye
