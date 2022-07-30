@@ -10,7 +10,7 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - ./portainer-data:/data
+      - /portainer-data:/data
     ports:
       - 9000:9000
 
@@ -23,21 +23,17 @@ services:
       - "34197:34197/udp"
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - ./factorio:/factorio
+      - /factorio:/factorio
     environment:
       - TZ=UTC
 
   homer:
     image: b4bz/homer
-    #To build from source, comment previous line and uncomment below
-    #build: .
     container_name: homer
     volumes:
-      - /your/local/assets/:/www/assets
+      - ./homer:/www/assets
     ports:
       - 8080:8080
-    user: 1000:1000 # default
+    user: 1000:1000
     environment:
-      - INIT_ASSETS=1 # default
-
-    
+      - INIT_ASSETS=1
