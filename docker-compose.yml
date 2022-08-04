@@ -26,7 +26,8 @@ services:
       - /factorio:/factorio
     environment:
       - TZ=UTC
-
+  
+#   dashboard
   homer:
     image: b4bz/homer
     container_name: homer
