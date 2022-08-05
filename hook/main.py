@@ -10,10 +10,14 @@ app = Flask(__name__)
 async def push_hook():
     await update_services()
 
+    print(1)
+
     return Response(status=200)
 
 async def update_services():
     await asyncio.sleep(1)
+
+    print(2)
 
     git.cmd.Git().fetch('https://github.com/l0s0s/server-config','master')
     git.cmd.Git().pull('https://github.com/l0s0s/server-config','master')
