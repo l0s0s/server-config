@@ -1,6 +1,8 @@
+from time import sleep
 import git
 import os
-from flask import Flask, Response, request
+import asyncio
+from flask import Flask, Response
 
 app = Flask(__name__)
 
@@ -11,6 +13,8 @@ async def push_hook():
     return Response(status=200)
 
 async def update_services():
+    await asyncio.sleep(1)
+
     git.cmd.Git().fetch('https://github.com/l0s0s/server-config','master')
     git.cmd.Git().pull('https://github.com/l0s0s/server-config','master')
     os.system('docker-compose up -d --force-recreate')
