@@ -27,6 +27,7 @@ services:
     environment:
       - TZ=UTC
   
+  # dashboard:
   homer:
     image: b4bz/homer
     container_name: homer
