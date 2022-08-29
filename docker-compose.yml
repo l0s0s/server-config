@@ -15,7 +15,7 @@ services:
       - 9000:9000
 
   factorio:
-    image: goofball222/factorio
+    image: goofball222/factorio:experimental
     container_name: factorio
     restart: unless-stopped
     ports:
